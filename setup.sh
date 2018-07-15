@@ -23,7 +23,6 @@ sudo apt install unzip -y
 sudo apt -y upgrade --force-yes
 sudo apt -y autoremove
 cd ../fastai/courses/dl1/
-ln -s ~/data ./
 jupyter notebook --generate-config
 echo "c.NotebookApp.ip = '*'" >> ~/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.open_browser = False" >> ~/.jupyter/jupyter_notebook_config.py
